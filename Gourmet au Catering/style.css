@@ -1,0 +1,159 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header-div {
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 1;
+    background-color: white;
+}
+
+#first-header-div {
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 900px;
+}
+
+#second-header-div {
+    display: inline-block;
+    height: 30px;
+}
+
+.header-class-1 {
+    letter-spacing: 4px;
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    float: left;
+    list-style-type: none;
+    margin-left: 45px;
+}
+
+#about {
+    height: 100vh;
+    align-content: space-between;
+}
+
+.about-head-class {
+    text-align: center;
+}
+
+#menu {
+    height: 100vh;
+}
+
+#contact {
+    height: 100vh;
+
+}
+#trilece-picture-div {
+    position: relative;
+    left: 375px;
+    top: 165px;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+#trilece-picture {
+    width: 300px;
+    height: 444px;
+}
+
+.about-text-div {
+    position: absolute;
+    width: 375px;
+    height: 600px;
+    left: 850px;
+    top: 1225px;
+}
+
+#menu-picture {
+    position: relative;
+    width: 444px;
+    height: 444px;
+    top: 175px;
+    left: 100px;
+    opacity: 0.5;
+}
+
+#menu-div {
+    position: absolute;
+    top: 1950px;
+    left: 700px;
+}
+
+#menu-head {
+    text-align: center;
+
+}
+
+.menu-content-class {
+    font-size: 22px;
+}
+
+#contact-div {
+    position: absolute;
+    width: 750px;
+    left: 27%;
+    top: 2650px;
+}
+
+.input-div {
+    position: relative;
+    top: 300px;
+    left: 27%;
+}
+
+input {
+    width: 725px;
+    height: 45px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    border: white solid 1px;
+    border-bottom: gray solid 1px;
+}
+
+button {
+    position: absolute;
+    width: 150px;
+    height: 35px;
+    letter-spacing: 3px;
+    left: 27%;
+    top: 3225px;
+    background-color: rgb(128, 128, 128);
+    border: rgb(128, 128, 128);
+}
+
+p {
+    font-size: larger;
+}
+
+hr {
+    width: 85%;
+}
+
+h1 {
+    letter-spacing: 4px;
+}
+
+h2 {
+    color: rgb(100, 100, 240);
+}
+
+h3 {
+    letter-spacing: 2px;
+}
